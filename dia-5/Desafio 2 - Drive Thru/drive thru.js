@@ -31,7 +31,7 @@ if(opcao === 'abastecer'){
             Litros: ${litros.toFixed(2)};
             Valor total: ${valorÁlcool.toFixed(2)}`);
     }else{
-        console.log('Combustível não reconhecido, tente novamente.')
+        console.log('Combustível não reconhecido, tente novamente.');
     }
     
 }else if(opcao === 'calibrar'){
